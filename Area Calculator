@@ -1,0 +1,20 @@
+""" Area calculator
+This program will calculate the 
+area of a circle and triangle"""
+print "The program has started"
+
+option = raw_input("Enter C for Circle or T for Triangle: ")
+
+if option == "C":
+  radius = float(raw_input("Enter the radius: "))
+  area = 3.14159 * radius ** 2
+  print "The area of a circle equal %f" % area
+elif option == "T":
+  base = float(raw_input("Enter the base:"))
+  height = float(raw_input("Enter the height:"))
+  area = 0.5 * base * height
+  print "The area of a triangle equal %f" % area
+else: 
+  print "Invalid input"
+print "The programm is exiting"
+    
