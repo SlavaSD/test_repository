@@ -1,0 +1,7 @@
+a = int(raw_input('Enter any number: '))
+while a <= 10:
+  a = int(raw_input('Enter greater number: '))
+  if a >= 10:
+    print 'Ooo that's enough'
+    break
+ 
