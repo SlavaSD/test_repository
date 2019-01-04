@@ -1,0 +1,8 @@
+my_cars = ['Toyota', 'Honda', 'Mercedes', 'Toyota', 'Hyundai', 'Toyota' ]
+for car in my_cars:
+  print 'My car is: ' + car + '!'
+  if car == 'Hyundai':
+    print 'Hyundai was a rent car it is not count.'
+    break
+else:
+  print "To many Toyota's"
