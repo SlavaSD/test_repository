@@ -1,0 +1,9 @@
+def digit_sum(n):
+  total = 0
+  n = str(n)
+  for digits in n:
+    total += int(digits)
+  return total
+  
+print digit_sum(1234)
+    
