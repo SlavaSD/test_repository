@@ -1,4 +1,4 @@
-#Spent couple hours to understend how fackin recursion works...
+
 
 def factorial(x):
   if x <= 1:
