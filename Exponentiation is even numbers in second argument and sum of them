@@ -1,0 +1,11 @@
+def my_function(n, k):
+  total_num = 0
+  if n <= 20:
+    for num in range(1, n):
+      if num % 2 == 0:
+        total_num = total_num + num ** k
+    return total_num
+  else:
+    return 0
+
+print my_function(20, 2)
