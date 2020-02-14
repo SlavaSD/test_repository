@@ -1,0 +1,14 @@
+def sum_divisors(n):
+  divisor = 0
+  sumdivisors=0
+  while divisor < n:
+    if divisor / n == 0:
+        divisor += 1
+    else:
+        divisor+=1
+  return sumdivisors+divisor
+    
+  # Return the sum of all divisors of n, not including n
+
+print(sum_divisors(6)) # Should be 1+2+3=6
+print(sum_divisors(12)) # Should be 1+2+3+4+6=16
